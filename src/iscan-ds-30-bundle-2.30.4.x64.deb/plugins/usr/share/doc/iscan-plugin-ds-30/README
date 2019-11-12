@@ -1,0 +1,48 @@
+
+        Plugin for the DS-30
+
+  Copyright (C) 2019  SEIKO EPSON CORPORATION
+
+
+  SUMMARY
+  =======
+    This plugin converts between the native protocol of the supported
+    devices and the ESC/I protocol.  The latter protocol is supported
+    by the SANE 'epkowa' backend, part of Image Scan!, and some other
+    SANE backends.  However, only the 'epkowa' backend provides the
+    hooks needed to use this plugin.
+
+    You only need this plugin if you have one of the following models:
+     - Epson DS-30
+
+
+
+  LICENSING
+  =========
+    The software is made available under the terms of the EPSON END USER
+    SOFTWARE LICENSE.  You should have received a verbatim copy of
+    this license in the 'COPYING.EPSON.en.txt' file.
+    A Japanese translation is available as 'COPYING.EPSON.ja.txt'.
+
+
+INSTALLATION
+============
+
+  BINARY PACKAGES
+  ---------------
+    For help on installation of Debian and RPM binary packages refer to
+    your distribution's documentation.  In most graphical environments
+    just double clicking does the right thing.  If that does not work
+    for you, you can always install from a command line with the least
+    common denominator tools as follows:
+
+    For Debian packages:
+
+      # dpkg --install $filename.deb
+
+    For RPM packages:
+
+      # rpm --upgrade $filename.rpm
+
+    Both commands require root user privileges and assume that package
+    dependencies have been taken care of already.
